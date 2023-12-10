@@ -22,7 +22,7 @@ public:
 		m_name(name),
 		m_level(level) {}
 
-	std::ostream& operator<<(std::ostream& stream) {};
+	std::ostream& operator<<(std::ostream& stream) { return stream; }
 
 	int AddScillsForRecruit() { return ++m_level; }
 
